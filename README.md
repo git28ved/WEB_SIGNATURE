@@ -41,7 +41,7 @@ A secure, full-stack web application for digital document signing — similar to
 1. **Clone the repo**
 ```bash
 git clone <repo-url>
-cd Project1_Intern
+
 ```
 
 2. **Backend setup**
