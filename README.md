@@ -11,6 +11,14 @@ A secure, full-stack web application for digital document signing — similar to
 - 🖊️ Type or draw your signature
 - 📱 Fully responsive design
 
+## Recent Fixes & Improvements
+
+- ✅ **PDF.js worker URL** – switched from CDN to local `pdfjs-dist` bundle to avoid runtime failures.
+- ✅ **Auth middleware** – now accepts JWT token via `?token=` query parameter, fixing PDF loading and download endpoints.
+- ✅ **Signature metadata** – added `meta` field in the Signature model; font choice persists after signing.
+- ✅ **Auth page redirects** – authenticated users are automatically redirected away from `/login` and `/register` pages.
+- ✅ **Improved UI** – decorative gradient glows and glassmorphism kept, no functional changes.
+
 ## Tech Stack
 
 | Layer | Technology |
